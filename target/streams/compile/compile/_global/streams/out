@@ -1,0 +1,44 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: C:\Users\wflaf\Desktop\FP\scalashop\src\main\scala\scalashop\image\Filter.scala:97:4 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 97 |[0m    [33mfor[0m i <- [31m0[0m until kernel.width[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m    ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Found:    Unit[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m    Required: (Float, Float, Float, Float)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 98 |[0m      j <- [31m0[0m until kernel.height [33mdo[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m 99 |[0m        [33mval[0m [36mdx[0m = i - rx[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m        [33mval[0m [36mdy[0m = j - ry[0m
+[0m[[0m[31merror[0m] [0m[0m[31m101 |[0m        [33mval[0m [36mnx[0m = x + dx[0m
+[0m[[0m[31merror[0m] [0m[0m[31m102 |[0m        [33mval[0m [36mny[0m = y + dy[0m
+[0m[[0m[31merror[0m] [0m[0m[31m103 |[0m        [33mif[0m nx >= [31m0[0m && nx < width && ny >= [31m0[0m && ny < height [33mthen[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m104 |[0m          [33mval[0m [36mweight[0m = kernel(i, j)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m105 |[0m          [33mval[0m [36mpixel[0m = src(nx, ny)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m106 |[0m          sumA += alpha(pixel).toFloat * weight[0m
+[0m[[0m[31merror[0m] [0m[0m[31m107 |[0m          sumR += red(pixel).toFloat * weight[0m
+[0m[[0m[31merror[0m] [0m[0m[31m108 |[0m          sumG += green(pixel).toFloat * weight[0m
+[0m[[0m[31merror[0m] [0m[0m[31m109 |[0m          sumB += blue(pixel).toFloat * weight[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\wflaf\Desktop\FP\scalashop\src\main\scala\scalashop\image\Filter.scala:110:3 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  (sumA, sumR, sumG, sumB)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m   ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m   Not found: sumA[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\wflaf\Desktop\FP\scalashop\src\main\scala\scalashop\image\Filter.scala:110:9 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  (sumA, sumR, sumG, sumB)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m         ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m         Not found: sumR[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\wflaf\Desktop\FP\scalashop\src\main\scala\scalashop\image\Filter.scala:110:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  (sumA, sumR, sumG, sumB)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m               ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m               Not found: sumG[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: C:\Users\wflaf\Desktop\FP\scalashop\src\main\scala\scalashop\image\Filter.scala:110:21 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m110 |[0m  (sumA, sumR, sumG, sumB)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                     ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                     Not found: sumB[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m

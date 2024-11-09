@@ -1,0 +1,17 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(scalashop.ParallelSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(scalashop.RedSplashSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(scalashop.SimpleBlurSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(scalashop.GrayscaleSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(scalashop.ConvolutionSuite, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(HoursTest, CustomFingerprint{suite='munit.Suite'}, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for munit not available.[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 237, Failed 1, Errors 0, Passed 236[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalashop.RedSplashSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalashop.SimpleBlurSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalashop.ParallelSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalashop.GrayscaleSuite[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HoursTest[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	scalashop.ConvolutionSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m

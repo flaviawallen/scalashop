@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(6e2502bb-024f-457c-87cc-92a351e2ee06), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\wflaf\Desktop\FP\scalashop\target\scala-3.5.0\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 237, Failed 1, Errors 0, Passed 236[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	scalashop.ConvolutionSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 31 oct. 2024, 14:51:33[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

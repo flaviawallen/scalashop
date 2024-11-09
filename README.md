@@ -2,6 +2,9 @@
 
 This repository contains my implementation of various image processing filters and parallelization techniques as part of a lab assignment. The lab focused on designing an interface to apply simple filters to images, exploring encapsulation behind functional interfaces, and parallelizing the implementation for scalability.
 
+![Alt text](./scalashop_readme_header.png)
+
+
 ## Overview
 
 The project involves implementing several image filters in Scala, including:
@@ -38,3 +41,13 @@ To run the ScalaShop application:
 
    ```bash
    git clone https://github.com/yourusername/scalashop.git
+
+2. **Navigate to the project directory:**:
+
+   ```bash
+   git clone https://github.com/yourusername/scalashop.git
+
+3. **Run the application using SBT:**:
+
+   ```bash
+   sbt run
